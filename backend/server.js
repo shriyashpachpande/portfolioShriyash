@@ -11,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Route
+app.get('/', (req, res) => res.send('server is live'))
 app.post("/send-email", async (req, res) => {
   const { name, email, message } = req.body;
 
@@ -48,3 +49,4 @@ app.post("/send-email", async (req, res) => {
 // Start server
 const PORT = 5000;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+
