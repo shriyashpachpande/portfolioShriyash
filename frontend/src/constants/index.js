@@ -206,7 +206,7 @@ const projects = [
  
     ],
     image: project2,
-    live_demo_link: "https://mgm-cfbs-production.up.railway.app/",
+    live_demo_link: "https://campus-facility-booking.onrender.com/",
     source_code_link: "https://github.com/shriyashpachpande/mgm-cfbs",
   },
   {
@@ -236,7 +236,7 @@ const projects = [
       },
     ],
     image: gearXpert, // Add the image in assets and import it at the top
-    live_demo_link: "https://scholarship-production.up.railway.app/",
+    live_demo_link: "https://scholarship-1-e5hi.onrender.com/",
     source_code_link: "https://github.com/shriyashpachpande/Scholarship",
   },
   
